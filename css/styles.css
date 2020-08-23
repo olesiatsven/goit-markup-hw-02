@@ -9,6 +9,8 @@
 body {
 	background: #e5e5e5;
 	color: var(--primery-text-color);
+    font-family: Roboto, sans-serif;`
+    letter-spacing: 0.02em;
 }
 ul {
 	list-style: none;
@@ -17,6 +19,7 @@ ul {
 .logo {
 	color: var(--title-text-color);
 	text-decoration: none;
+	font-family: Raleway;
 }
 .logo-style {
 	color: var(--accent-color);
@@ -42,6 +45,7 @@ ul {
 /* hero */
 .hero-title {
 	color: var(--text-white-color);
+	text-transform: uppercase;
 }
 .hero {
 	background-color: var(--background-color);
@@ -49,6 +53,7 @@ ul {
 /* sections */
 .section-title {
 	color: var(--title-text-color);
+	text-transform: uppercase;
 }
 /* button */
 .button {
@@ -75,4 +80,5 @@ ul {
 .logo-over {
 	color: var(--text-white-color);
 	text-decoration: none;
+	font-family: Raleway, sans-serif;
 }
