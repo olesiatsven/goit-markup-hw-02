@@ -127,19 +127,19 @@ letter-spacing: 0.03em;
 .team-name {
     color: var(--title-text-color);
     font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 19px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
 
 }
 .section-team {
     color: var(--primery-text-color);
     font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 19px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
 }
 
 /* footer */
@@ -149,19 +149,19 @@ line-height: 19px;
 .address-info {
     color: var(--text-white-color);
     font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 24px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
 }
 .nav-item {
 	color: var(--contacts-footer-color);
     text-decoration: none;
     font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 24px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
 }
 .nav-item:hover {
 	color: var(--accent-color);
@@ -179,10 +179,10 @@ line-height: 24px;
 .body {
     color: var(--title-text-color);
     background-color: var(--background-color-main);
+
 }
 
-.section-list {
-    color: var(--title-text-color);
+.button-list {
     font-family: Roboto;
 font-style: normal;
 font-weight: 500;
@@ -191,6 +191,28 @@ line-height: 26px;
 text-align: center;
 letter-spacing: 0.03em;
 }
-.section-list :hover,
- {
-   
+
+.button-item :focus,
+.button-item :hover {
+    color: var(--accent-color);
+}
+  
+.portfolio-list {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+}
+.portfolio-title {
+    color: #212121;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+
+
+}
