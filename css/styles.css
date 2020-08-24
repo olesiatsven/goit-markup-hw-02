@@ -6,6 +6,7 @@
 	--contacts-footer-color: rgba(255, 255, 255, 0.6);
     --background-color: #2f303a;
     --background-color-main: #E5E5E5;
+    --background-color-button: #F5F4FA;
 }
 body {
 	background:var(--background-color-main);
@@ -87,10 +88,6 @@ ul {
     font-weight: bold;
     font-size: 16px;
     line-height: 30px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
 }
 /* sections */
 .section {
@@ -183,18 +180,21 @@ letter-spacing: 0.03em;
 }
 
 .button-list {
+    color: var(--title-text-color);
     font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 26px;
-text-align: center;
-letter-spacing: 0.03em;
+    font-style: 400;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .button-item :focus,
 .button-item :hover {
-    color: var(--accent-color);
+    color: var(--text-white-color);
+    background-color: var(--accent-color);
+    
 }
   
 .portfolio-list {
@@ -213,6 +213,5 @@ letter-spacing: 0.03em;
     font-size: 18px;
     line-height: 36px;
     letter-spacing: 0.06em;
-
 
 }
