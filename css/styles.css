@@ -206,7 +206,7 @@ letter-spacing: 0.03em;
     letter-spacing: 0.03em;
 }
 .portfolio-title {
-    color: #212121;
+    color: var(--title-text-color);
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
