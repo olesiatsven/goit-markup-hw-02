@@ -13,10 +13,11 @@ body {
 	color: var(--primery-text-color);
     font-family: Roboto, sans-serif;`
     letter-spacing: 0.02em;
+    margin:0;
+
 }
-ul {
-	list-style: none;
-}
+
+
 /* logo */
 .logo {
 	color: var(--title-text-color);
@@ -27,7 +28,8 @@ ul {
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
-
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .logo-style {
 	color: var(--accent-color);
@@ -42,7 +44,6 @@ ul {
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-
 }
 
 .site-nav .link:hover,
@@ -61,12 +62,20 @@ ul {
 }
 .contacts .link:hover,
 .contacts .link:focus {
-	color: var(--accent-color);
+    color: var(--accent-color);
+    
 }
+
+
+    
+
+
 /* hero */
 .hero-title {
 	color: var(--text-white-color);
-	text-transform: uppercase;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 30px;
 }
 .hero {
     background-color: var(--background-color);
@@ -88,7 +97,16 @@ ul {
     font-weight: bold;
     font-size: 16px;
     line-height: 30px;
+    min-width: 200px;
+    padding: 10px 32px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid transparent;  
 }
+
+
+
 /* sections */
 .section {
 font-family: Roboto;
@@ -97,6 +115,8 @@ font-weight: normal;
 font-size: 14px;
 line-height: 24px;
 letter-spacing: 0.03em;
+
+
 }
 .section-title {
 	color: var(--title-text-color);
@@ -108,6 +128,8 @@ letter-spacing: 0.03em;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 10px;
 
 }
 .title-main {
@@ -119,6 +141,8 @@ letter-spacing: 0.03em;
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-top: 0;
+    margin-bottom: 50px;
 }
 
 .team-name {
@@ -128,6 +152,8 @@ letter-spacing: 0.03em;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
+    margin-top: 0;
+    margin-bottom: 10px;
 
 }
 .section-team {
@@ -137,6 +163,8 @@ letter-spacing: 0.03em;
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
+    padding-top: 0;
+    padding-bottom: 30px;
 }
 
 /* footer */
@@ -163,6 +191,8 @@ letter-spacing: 0.03em;
 .nav-item:hover {
 	color: var(--accent-color);
 }
+
+
 .logo-style {
 	color: var(--accent-color);
 }
@@ -173,6 +203,7 @@ letter-spacing: 0.03em;
 }
 
 /* Portfolio */
+
 .body {
     color: var(--title-text-color);
     background-color: var(--background-color-main);
@@ -215,3 +246,25 @@ letter-spacing: 0.03em;
     letter-spacing: 0.06em;
 
 }
+/* block */
+.container{
+    width: 1230px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 2px solid tomato;
+}
+/* all lists */
+
+.list,
+.site-nav,
+.button-list,
+.portfolio-list {
+list-style: none;
+padding: 0;
+margin: 0;
+text-decoration: none;
+}
+ h1,h2,h3,h4,h5,p{
+     margin-top: 0;
+     margin-bottom: 0;
+ }
